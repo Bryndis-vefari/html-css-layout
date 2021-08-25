@@ -1,0 +1,131 @@
+/* Google fonts, Zilla Slab for Headlines and Roboto for body text */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Zilla+Slab:wght@300;400;600&display=swap');
+
+/* Body styles */
+body {
+	background-color: #fefffd;
+	color: rgb(163, 156, 151);
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+
+}
+/* Heading styles */
+h1, h2, h3, h4{
+	font-family: 'Zilla Slab', serif;
+}
+h1{
+	font-size: 14rem;	
+}
+h2{
+	font-size: 2rem;
+}
+
+/* Header styles */
+
+header {
+	display: flex;	
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	height: 8rem;
+	padding-right: 2rem;
+	background-color: black;
+}
+
+
+header nav ul {
+	padding: 0;
+}
+header nav ul li {
+	display: inline-block;
+	margin: 5px;
+}
+
+header nav ul li a {
+	padding: 5px 3px;
+	color: white;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	color: #b65050;
+}
+
+/* Section styles */
+
+.hero {
+	position: relative;
+} 
+.hero_heading {
+	position: absolute;
+	bottom: 1rem;
+	left: 1rem;
+	color: #b65050;
+}
+.section {
+	background-color:#fbdfdf;
+	color: black;
+	margin-bottom: 20px;
+	padding: 40px;
+}
+.about__title {
+	color: black;
+}
+.about__body {
+	color: #545454;
+}
+
+.skills__title {
+	color: black;
+}
+.skills__body {
+	color: #545454;
+}
+
+.education__title {
+	color: black;
+}
+.education__body {
+	color: #545454;
+}
+
+/* Footer styles */
+footer {
+	display: flex;	
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	height: 8rem;
+	padding: 2rem;
+	background-color: black;
+}
+
+footer ul {
+	padding: 0;
+}
+footer ul li {
+	display: inline-block;
+	margin: 5px;
+}
+
+footer ul li a {
+	padding: 5px 3px;
+	color: white;
+	text-decoration: none;
+}
+
+footer ul li a:hover {
+	color: #b65050;
+}
+
+/* Section styles */
+
+.wrapper {
+	margin: 40px
+}
+/* Image styles */
+
+.portrait {
+	width: 100%;
+}
