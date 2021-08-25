@@ -33,6 +33,17 @@ header {
 	background-color: black;
 }
 
+/* Here below I used CSS grid */
+
+.wrapper {
+
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: 40px;
+	gap: 3rem;
+	width: calc(100% - 80px - 3rem);
+}
+
 
 header nav ul {
 	padding: 0;
@@ -121,7 +132,7 @@ footer ul li a:hover {
 
 /* Section styles */
 
-.wrapper {
+.wrap {
 	margin: 40px
 }
 /* Image styles */
